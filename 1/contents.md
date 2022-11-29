@@ -103,3 +103,28 @@ while(1) // 보통 0 은 false, 1 은 true 로 생각된다. 하지만 요즘은
 <br>
 
 ## Command line interface - CLI
+
+리눅스란?
+
+- 운영체제
+- 서버에서 많이 사용됨
+- macos, windows 의 alternative
+- provides the user both a GUI and a `CLI`
+
+리눅스는 특히 CLI 로 잘 알려져있음
+
+리눅스 명령어
+
+`ls` - lists all of the files in the current folder
+
+`cd` - `change directory (to)`
+
+`cp` - `copy a file`
+
+`mv` - rename a file -> `mv currentFileName newFileName` 형태로 사용 or move a file
+
+`mkdir` - `make a directory`
+
+`rm` - `remove a file`
+
+`rmdir` - `remove a directory`
