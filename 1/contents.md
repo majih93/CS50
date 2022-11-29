@@ -73,4 +73,33 @@ header file 은 특정 라이브러리/모듈에 대해서 정보를 담고 있�
 
 ## agree.c
 
-## Loops, Variables - 1:36:50
+## Loops, Variables
+
+반복문의 의미 - 불필요한 작업 반복 줄이고, `single source of truth` 를 더 가능케 함
+
+보통의 경우, 0 에서 시작해서 ++ 하는 방식이 많이 사용됨(vs -- 하는 방식)
+
+```c
+#import <stdbool.h> // true/false 값을 활용하려면 이 라이브러리를 도입하거나, 해당 라이브러리를 도입하고 있는 라이브러리를 도입해야함
+// 뭔가 계속 반복하고 싶을 때
+
+while (true) // while 문은 bool 로 평가되는 식을 받는데, true로 평가되는 식은 끝날 조건이 없다.
+{
+  // logic
+}
+
+while(1) // 보통 0 은 false, 1 은 true 로 생각된다. 하지만 요즘은 대체적으로 명확하게 true 로 쓰는 듯
+{
+  // logic
+}
+```
+
+혹시나 infinite loop 이 발생해서 끊어야 하는 경우, `ctrl+c` 명령어를 통해 끊을 수 있음
+
+<br>
+
+---
+
+<br>
+
+## Command line interface - CLI
