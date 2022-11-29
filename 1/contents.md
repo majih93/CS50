@@ -128,3 +128,22 @@ while(1) // 보통 0 은 false, 1 은 true 로 생각된다. 하지만 요즘은
 `rm` - `remove a file`
 
 `rmdir` - `remove a directory`
+
+<br>
+
+---
+
+<br>
+
+## mario
+
+실수할 가능성을 줄이는 코드는 좋은 디자인패턴이다...
+
+**- Have to change something in more than one place - BAD!!**
+**- copy, paste - BAD!!!**
+
+심플한 법칙들인데, 쉽지 않고 생각을 많이 해야한다. 생각을 하면서 코드를 짜야함
+
+반대로 말하면, 실수할 가능성이 존재하는 코드는 좋지 못한 코드.
+
+코드를 짤 때, 이렇게 코드를 짜면 나중에 다른 사람이 코드를 수정할 때 뭔가 놓치는 부분은 없을지에 대해서 고민하면서 좋은 코드를 작성해보자. -> Apple Watch app 을 만들때, screenSize 등을 고려해서 UI 를 구성할거면 최대한 한 군데서 해당 값을 관리하는 형태로 짠다던지 하는 방식이겠지?
